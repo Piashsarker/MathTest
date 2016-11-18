@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_toss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptlearnpoint.mathtest.TossActivity">
+
+    <include layout="@layout/toolbar">
+
+    </include>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:fabSize="normal"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_marginTop="109dp"
+        android:id="@+id/btn_toss"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/btn_toss"
+        android:layout_alignEnd="@+id/btn_toss"
+        android:id="@+id/txt_toss_result" />
+
+
+</RelativeLayout>

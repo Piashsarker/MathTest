@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lottery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.ptlearnpoint.mathtest.LotteryActivity">
+    <include layout="@layout/toolbar">
+
+    </include>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/et_number_one"
+            android:layout_weight="1"
+            android:hint="Enter Number One"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/et_number_two"
+            android:layout_weight="1"
+            android:hint="Enter Number Two"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSee"
+        android:text="See"/>
+
+    <TextView
+        android:id="@+id/txt_lottery_result"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Result"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_balance"
+        android:text="Balance"/>
+
+
+
+
+
+
+</LinearLayout>
